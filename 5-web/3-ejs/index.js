@@ -2,7 +2,7 @@ const express = require('express');
 
 const server = express();
 
-server.set('view engine', 'ejs');
+server.set('view engine', 'ejs');                                           // Set Express to use EJS
 
 server.get('/', (req, res) => {
   res.render('index');

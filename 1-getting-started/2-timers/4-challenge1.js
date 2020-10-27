@@ -1,4 +1,4 @@
-const theOneFunc = () => {};
+const theOneFunc = delay => {};
 
 setTimeout(theOneFunc, 4 * 1000);
 
